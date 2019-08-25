@@ -4,3 +4,5 @@
 
 - go lang ver.
 ![go](./go.JPG)
+
+## 실행 할때는 터미널에서 go run 파일명.go
