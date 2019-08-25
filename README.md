@@ -3,4 +3,4 @@
 - go언어를 공부해봅시다 쿄쿗! 
 
 - go lang ver.
-![go](./go.jpg)
+![go](./go.JPG)
