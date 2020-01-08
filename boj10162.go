@@ -11,7 +11,7 @@ var bufout *bufio.Writer = bufio.NewWriter(os.Stdout)
 var a, b, c, t int
 
 func main() {
-	defer bufout.Flush() 
+	defer bufout.Flush()
 	fmt.Fscanf(bufin, "%d", &t)
 	if t%10 != 0 {
 		fmt.Fprint(bufout, "-1")
