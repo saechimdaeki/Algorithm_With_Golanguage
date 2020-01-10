@@ -17,6 +17,10 @@
 ## go언어의 간단한 실용예
 - http://golang.site/go/article/111-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%9B%B9-%EC%84%9C%EB%B2%84-HTTP-%EC%84%9C%EB%B2%84 (서버)
 - http://pyrasis.com/book/GoForTheReallyImpatient/Unit58   (서버)
+- https://mingrammer.com/building-blockchain-in-go-part-1/ (golang으로 blockchain만들기)
+
+## golang for backend
+- Golang의 독특한 특징 3가지 - A declared are not used, Multiple return values, Timeout (https://voidmainvoid.tistory.com/128)
 
 ## go언어로 bfs 문제를 푸는 예시 (직접작성)
 - 문제:
