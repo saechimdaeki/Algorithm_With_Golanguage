@@ -23,6 +23,9 @@
 - Golang의 독특한 특징 3가지 - A declared are not used, Multiple return values, Timeout (https://voidmainvoid.tistory.com/128)
 
 ## go언어로 bfs 문제를 푸는 예시 (직접작성)
+
+### go언어로 백준알고리즘 문제풀기 [BOJGolang](./BOJ_Go)
+
 - 문제:
 
 ![ex](./ex.JPG)
