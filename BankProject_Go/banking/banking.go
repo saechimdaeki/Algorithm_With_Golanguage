@@ -1,6 +1,9 @@
 package banking
 
-type bankAccount struct {
-	owner string 
-	balnce int 
+
+
+//account struct   UPPER=PUBLIC  LOWER=PRIVATE 
+type Account struct {
+	Owner string 
+	Balnce int 
 }
