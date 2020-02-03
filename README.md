@@ -98,3 +98,78 @@
 	
 </code>	
 
+- go언어에도 pointer가있다 
+
+<code>
+
+        ///pointercase #1 
+
+        func main(){
+            a:=2
+            b:=&a
+            fmt.Println(*b)
+        }
+
+        ////// output:2 
+
+        ///pointercase #2
+
+        func main(){
+            a:=2 
+            b:= &a
+            *b=20 
+            fmt.Println(a)
+       }
+       //////output : 20 
+
+</code>
+
+## map에대해 알아보기 
+
+<code>
+
+        func main(){
+            nico:=map[string]string{"name":"nico", "age":"12"}
+            fmt.Println(nico)
+
+            //output: map[age:12 name:nico]
+        }
+
+</code>
+
+<code>
+
+        
+    func main() {
+
+	nico := map[string]string{"name": "nico", "age": "12"}
+	//fmt.Println(nico)
+	for _, value := range nico {
+		fmt.Println(value)
+	}
+	/* output:
+	nico
+	       12
+	*/
+    }
+
+</code>
+
+
+## struct sample
+
+<code>
+
+    type person struct {
+	name string
+	age  int
+	food []string
+    }
+
+    func main() {
+	food := []string{"kimchi", "ramen"}
+	nico := person{name: "nico", age: 25, food: food}
+	fmt.Println(nico.name)
+    }
+
+</code>
