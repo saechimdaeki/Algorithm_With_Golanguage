@@ -2,12 +2,21 @@
 - for study go language  
 - go lang 심화튜토리얼 :http://golang.site/
 - golang tutorial study link : https://go-tour-kr.appspot.com/
-- go lang ver.
+
+
+### go언어 Project
+-------------------------------
+[은행계좌만들기](./BankProject_Go)
+
+--------------------------
+
+### my golang version
 
 ![go](./go.JPG)
 
 ## go언어를 실행 할때는 터미널에서 go run 파일명.go
-
+---------------------------------------
+# ↓  STUDY_NOTE  ↓
 ### 왜 go언어를 해야하는가 ? 
 - https://blog.jse.li/posts/torrent/
 - https://blog.youngbin.xyz/2019-09-09-migrating-skhus-backend-from-nodejs-to-golang/
