@@ -88,3 +88,13 @@
 ![time](./time.JPG)
 
 
+- for문은 그때그때 따라서 ~ 
+
+<code>
+	
+	for _, number := range numbrs{ }
+	
+	for i:=0; i<len(numbers); i++ { }
+	
+</code>	
+
