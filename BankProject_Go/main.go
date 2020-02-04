@@ -1,8 +1,10 @@
 package main
 
 import (
-	"../../../Desktop/Study_all_by_myself_-GO-/BankProject_Go/accounts" //나의 컴퓨타폴더..........
 	"fmt"
+	//"log"
+
+	"../../../Desktop/Study_all_by_myself_-GO-/BankProject_Go/accounts" //나의 컴퓨타폴더..........
 	//"github.com/saechimdaeki/study_Go_lang/banking"
 )
 
@@ -13,5 +15,16 @@ import (
 func main() {
 
 	account := accounts.NewAccount("junSeong")
+	//fmt.Println(account)
+	account.Deposit(100)
+	fmt.Println(account.Balance())
+	/*
+		err := account.Withdraw(90)
+		if err != nil {
+			log.Fatalln(err)
+		}
+		fmt.Println(account.Balance(), account.Owner())
+	*/
+
 	fmt.Println(account)
 }
