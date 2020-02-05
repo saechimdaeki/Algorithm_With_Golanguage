@@ -5,6 +5,7 @@ import (
 	//"log"
 
 	"../../../Desktop/Study_all_by_myself_-GO-/BankProject_Go/accounts" //나의 컴퓨타폴더..........
+	"../../../Desktop/Study_all_by_myself_-GO-/BankProject_Go/mydict"
 	//"github.com/saechimdaeki/study_Go_lang/banking"
 )
 
@@ -27,4 +28,18 @@ func main() {
 	*/
 
 	fmt.Println(account)
+	dictionary := mydict.Dictionary{}
+	word := "hello"
+	definiton := "greeting"
+	err := dictionary.Add(word, definiton)
+	if err != nil {
+		fmt.Println(err)
+
+	}
+	hello, err := dictionary.Search(word)
+	fmt.Println(hello)
+	err2 := dictionary.Add(word, definiton)
+	if err2 != nil {
+		fmt.Println(err)
+	}
 }
