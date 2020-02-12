@@ -7,6 +7,8 @@
 ### go언어 Project
 -------------------------------
 [은행계좌만들기](./BankProject_Go)
+[URLCHECKER](./URLchecker_Go)
+
 
 --------------------------
 
@@ -180,5 +182,39 @@
 	nico := person{name: "nico", age: 25, food: food}
 	fmt.Println(nico.name)
     }
+
+</code>
+
+## at the sametime sample
+<code>
+
+        package main
+        import (
+	        "fmt"
+	        "time"
+        )
+
+        func main() {
+	    go sexycount("nico")
+	    sexycount("junseong")
+
+        }
+        func sexycount(person string) {
+	    for i := 0; i < 3; i++ {
+		fmt.Println(person, "is sexy", i)
+		time.Sleep(time.Second)
+	     }
+        }
+        /* output:
+            junseong is sexy 0
+            nico is sexy 0 
+             junseong is sexy 1
+            nico is sexy 1
+             junseong is sexy 2
+            nico is sexy 2 
+            
+
+        */
+
 
 </code>
