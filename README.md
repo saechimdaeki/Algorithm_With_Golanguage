@@ -2,7 +2,7 @@
 - for study go language  
 - go lang 심화튜토리얼 :http://golang.site/
 - golang tutorial study link : https://go-tour-kr.appspot.com/
-
+- 내가 go언어 공부하는 사이트: https://thebook.io/006806/ 
 
 ### go언어 Project
 -------------------------------
@@ -28,10 +28,11 @@
 - https://www.buzzvil.com/ko/2018/02/12/tech-blog-go-%EC%84%9C%EB%B2%84-%EA%B0%9C%EB%B0%9C%ED%95%98%EA%B8%B0/
 
 ## go언어의 간단한 실용예
+
 - http://golang.site/go/article/111-%EA%B0%84%EB%8B%A8%ED%95%9C-%EC%9B%B9-%EC%84%9C%EB%B2%84-HTTP-%EC%84%9C%EB%B2%84 (서버)
 - http://pyrasis.com/book/GoForTheReallyImpatient/Unit58   (서버)
 - https://mingrammer.com/building-blockchain-in-go-part-1/ (golang으로 blockchain만들기)
-
+- https://www.joinc.co.kr/w/man/12/Kafka/chatting (kafka-Go를이용한 채팅어플리케이션)
 ## golang for backend
 - Golang의 독특한 특징 3가지 - A declared are not used, Multiple return values, Timeout (https://voidmainvoid.tistory.com/128)
 
@@ -217,6 +218,36 @@
             
 
         */
+
+
+</code>
+
+### string to Int 
+
+<code>
+
+        package main
+        import (
+	    "fmt"
+	    "os"
+	    "strconv"
+        )
+        var s string
+       
+        func main() {
+	    fmt.Scan(&s)
+         test := 123
+	    // string to int
+	    i, err := strconv.Atoi(s)
+	    if err != nil {
+		fmt.Println(err)
+		os.Exit(2)
+	    }
+	    fmt.Println(s, i+test)
+        }
+            /*  input : 123 
+                output: 123 246   */
+    
 
 
 </code>
