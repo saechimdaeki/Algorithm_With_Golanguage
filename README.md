@@ -3,7 +3,7 @@
 - go lang 심화튜토리얼 :http://golang.site/
 - golang tutorial study link : https://go-tour-kr.appspot.com/
 - 내가 go언어 공부하는 사이트: https://thebook.io/006806/ 
-
+## `정말 가끔 고언어가 그리울때만 업데이트합니다....` 
 ### go언어 Project
 -------------------------------
 [은행계좌만들기](./BankProject_Go)
